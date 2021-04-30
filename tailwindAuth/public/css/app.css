@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .bg-image {
+    background: fixed url(../images/w_1200.jpg);
+    background-size: cover;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    height: 100%; 
+    background-repeat: no-repeat;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    /* background-color: rgb(0,0,0); /* Fallback color */
+    /*background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through  */
+    color: rgb(255, 0, 0) !important;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .ff{
+    /* background-color: rgb(0,0,0) !important; Fallback color */
+    background-color: rgba(31, 27, 27, 0.4) !important;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .login-dark {
+    height:100%;
+  }
+  
+  .login-dark form {
+    max-width:500px;
+    width:70%;
+    background-color:#9e9a9a49;
+    padding:40px;
+    border-radius:4px;
+    transform:translate(-50%, -50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:#fff;
+    box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+  }
+  
+  .login-dark .illustration {
+    text-align:center;
+    padding:15px 0 20px;
+    font-size:100px;
+    color:#2980ef;
+  }
+  
+  .login-dark form .form-control {
+    background:none;
+    border:none;
+    border-bottom:1px solid #ee2f3f;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    color:inherit;
+  }
+  
+  .login-dark form .btn-primary {
+    background:#214a80;
+    border:none;
+    border-radius:4px;
+    padding:11px;
+    box-shadow:none;
+    margin-top:26px;
+    text-shadow:none;
+    outline:none;
+  }
+  
+  .login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+    background:#214a80;
+    outline:none;
+  }
+  
+  .login-dark form .forgot {
+    display:block;
+    text-align:center;
+    font-size:12px;
+    color:#6f7a85;
+    opacity:0.9;
+    text-decoration:none;
+  }
+  
+  .login-dark form .forgot:hover, .login-dark form .forgot:active {
+    opacity:1;
+    text-decoration:none;
+  }
+  
+  .login-dark form .btn-primary:active {
+    transform:translateY(1px);
+  }
+  .wrapper{
+    width: 100%;
+  }
+  .carousel{
+    max-width: 1200px;
+    margin: auto;
+    /* padding: 0 30px; */
+  }
+  .carousel .card{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 20px 0;
+    /* line-height: 250px; */
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  }
+ 
+  
+  
